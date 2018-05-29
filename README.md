@@ -1,24 +1,29 @@
 # webservice
+## Getting Started
+Config application.properties in resource for your database 
+and run project
 ### methods
+
+```
 localhost:8080/user/signUp ==> signUp method==>POST
 body example :
-```
 {
 	"fullName":"sajad mohammadi",
 	"username":"sajad",
 	"password":"123"
 }
 ```
-
+### Test With Postman
 
 Other api method need authentication
 in postman set authorization to type "Basic Auth" and enter user pass
 read/update/delete for user/profile need authentication
 
-Method update user
-localhost:8080/admin/updateUser/{Id}  method==>PUT
+
 
 ```
+Method update user
+localhost:8080/admin/updateUser/{Id}  method==>PUT
 body example :{
 	"fullName":"sajad",
 	"username":"sajad",
