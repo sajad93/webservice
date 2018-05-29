@@ -2,7 +2,6 @@
 ## Getting Started
 Config application.properties in resource for your database 
 and run project
-### methods
 
 ```
 localhost:8080/user/signUp ==> signUp method==>POST
